@@ -11,7 +11,7 @@ class Config(object):
     
     SUPPORT_CHAT = "https://t.me/+i_cCG3Gwh9U1MmE1"  # Your own group for support, do not add the @
     START_IMG = "https://telegra.ph/file/8226139581c9711fe8a07.jpg"
-    EVENT_LOGS = (-1001973432039)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    EVENT_LOGS = (-4012114975)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://errorkamoto:iRXGNBZeqYizjUZR@cluster0.fxcbbcj.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
     DATABASE_URL = "postgres://kkaazmgz:GKwmsZow2Lrww098Cw3rh-7FRsCqVEn1@hansken.db.elephantsql.com/kkaazmgz"  # A sql database url from elephantsql.com
