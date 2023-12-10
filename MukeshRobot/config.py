@@ -4,21 +4,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    API_ID = "25183104" # integer value, dont use ""
+    API_HASH = "e26e3936f8bd637f2724c728ea50c6af"
+    TOKEN = "6982860628:AAGwx7GCONr-OhA8-MtXh28WFmvhUb0iirA"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 6181269269 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
     START_IMG = ""
-    EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    EVENT_LOGS = (-4012114975)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    MONGO_DB_URI= "mongodb+srv://errorkamoto:iRXGNBZeqYizjUZR@cluster0.fxcbbcj.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://kkaazmgz:GKwmsZow2Lrww098Cw3rh-7FRsCqVEn1@hansken.db.elephantsql.com/kkaazmgz"  # A sql database url from elephantsql.com
     CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "Z7PV8COX8N3C1HST"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = ""
+    TIME_API_KEY = "HYOHUKE9BAAB"
     # Get your API key from https://timezonedb.com/api
 
     # Optional fields
